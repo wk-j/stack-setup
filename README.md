@@ -6,25 +6,21 @@ stack build
 stack exec hello
 ```
 
-## GHC Version
+GHC Version
 
 ```
 stack exec -- ghc --version
 ```
 
-## Compile file
-
-```
-stack ghc -- scripts/HelloWorld.hs
-```
-
-## Run file
+Run script
 
 ```
 stack exec -- runghc scripts/HelloWorld.hs
 stack runghc -- scripts/HelloWorld.hs
 ```
 
-## Package
+Add packages
 
+```
 stack scripts/Package.sh
+```
