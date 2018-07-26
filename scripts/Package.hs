@@ -1,5 +1,4 @@
 -- stack runghc --package http-conduit
-
 {-# LANGUAGE OverloadedStrings #-}
 
 import qualified Data.ByteString.Lazy.Char8 as L8
